@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const AxiosClient = axios.create({
-  baseURL: "http://localhost:4000/api/v1/",
+  baseURL: "https://ai-code-generator-backend.onrender.com/api/v1/",
 });
 
 export { AxiosClient };
